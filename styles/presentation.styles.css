@@ -1,0 +1,133 @@
+.hero {
+    display: flex;
+    max-width: 1000px;
+    background-color: #0b0b464f;
+    border-radius: 25px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.presentation {
+    flex: 1;
+    min-width: 280px;
+}
+
+.intro {
+    color: #53f9ff;
+    font-size: 2cap;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.name {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 2.5rem;
+    color: #dfdfdf;
+    margin-bottom: 2rem;
+}
+
+.description {
+    max-width: 600px;
+    margin-bottom: 4rem;
+    color: #d3d3d3;
+}
+
+.description a {
+    color: #53f9ff;
+}
+
+.cta-btn {
+    border: 1px solid #53f9ff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    color: #53f9ff;
+    font-family: monospace;
+    transition: background 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+.profile-picture {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+}
+
+.profile-picture img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(83, 249, 255, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        padding: 3rem 2rem;
+        margin: 30px 10px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .intro {
+        font-size: 1.3cap;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 0.75rem 1.5rem;
+    }
+
+    .profile-picture {
+        margin-top: 2rem;
+        justify-content: flex-start;
+    }
+
+    .profile-picture img {
+        max-width: 150px;
+    }
+}
+
+@media (min-width: 769px) {
+    .hero {
+        padding: 3rem 4rem;
+        margin: 130px auto;
+    }
+
+    .intro {
+        font-size: 2cap;
+    }
+    
+    .name {
+        font-size: 3rem;
+    }
+    
+    .subtitle {
+        font-size: 2.5rem;
+    }
+}

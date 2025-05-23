@@ -1,0 +1,51 @@
+/* Dark Theme */
+body.dark-theme {
+    background-color: #09153a;
+    color: #5d85ff;
+    background-blend-mode: overlay;
+}
+
+body.dark-theme header,
+body.dark-theme footer {
+    background-color: #02081a;
+}
+
+body.dark-theme nav a,
+body.dark-theme .theme-toggle-btn,
+body.dark-theme footer .footer-contact a,
+body.dark-theme .mobile-menu a {
+    color: #5d85ff;
+}
+
+body.dark-theme nav a:hover,
+body.dark-theme .theme-toggle-btn:hover,
+body.dark-theme .mobile-menu a:hover,
+body.dark-theme footer .footer-contact a:hover,
+body.dark-theme .close-btn:hover {
+    color: #beceff;
+}
+
+body.dark-theme .hamburger span {
+    background-color: #5d85ff;
+}
+
+body.dark-theme .mobile-menu .close-btn {
+    color: #53f9ff;
+}
+
+body.dark-theme .close-btn {
+    color: #0d1e50;
+}
+
+.dark-theme .hero {
+    background-color: #1a1c774d;
+}
+
+.dark-theme .title-text {
+    color: #53f9ff;
+}
+
+.dark-theme .card-front,
+.dark-theme .card-back {
+    background: #15224b;
+}

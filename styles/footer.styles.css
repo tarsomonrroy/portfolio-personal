@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 1rem 4rem;
+    font-size: 14px;
+    height: 175px;
+    max-height: 175px;
+    background-color: #0e2e8f;
+}
+
+footer .footer-contact {
+    margin-top: 10px;
+}
+
+footer .footer-contact a {
+    padding: 0px 10px;
+    color: #e0e0e0;
+}
+
+footer .footer-contact a:hover {
+    padding: 0px 10px;
+    color: #53f9ff;
+}

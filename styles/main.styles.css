@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #ccd6f6;
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: #456ee9;
+    background-image: url('/images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+main {
+    margin-top: 225px;
+}
+
+.logo {
+    border: 1px solid #53f9ff;
+    color: #53f9ff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border-width: 3px;
+    font-weight: bold;
+}
+
+.proj {
+    background-image: url('/images/pages-background.png');
+}
