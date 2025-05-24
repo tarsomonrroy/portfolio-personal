@@ -12,7 +12,6 @@ function createPresentation() {
           HTML, CSS, JavaScript e React Native, sempre buscando criar interfaces modernas,
           funcionais e responsivas.
         </p>
-        <a href="#" class="cta-btn">Check out my course!</a>
       </div>
       <div class="profile-picture">
         <img src="images/profile.png" alt="Foto de Tarso Moreira" />

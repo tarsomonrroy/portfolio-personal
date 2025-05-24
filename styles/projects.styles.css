@@ -12,7 +12,6 @@
 
 .title-text {
     color: #ffffff;
-    margin-top: -60px;
     margin-bottom: 2rem;
     font-weight: bold;
     text-decoration: underline;
@@ -65,6 +64,7 @@
     }
 
     .title-text {
+        margin-top: -60px;
         font-size: 3rem;
     }
 

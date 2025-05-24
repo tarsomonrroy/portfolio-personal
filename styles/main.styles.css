@@ -12,13 +12,13 @@ body {
     background-color: #456ee9;
     background-image: url('../images/background.png');
     background-position: center;
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
 }
 
-main {
-    margin-top: 225px;
+body.sobre {
+  background-image: url("../images/pages-background.png");
 }
 
 .logo {
@@ -30,6 +30,16 @@ main {
     font-weight: bold;
 }
 
-.proj {
-    background-image: url('/images/pages-background.png');
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        margin-top: 125px;
+    }
+}
+
+@media (min-width: 769px) {
+    main {
+        margin-top: 225px;
+    }
 }
