@@ -10,7 +10,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     background-color: #1e49c9;
-    background-image: url('/images/pages-background.png');
+    background-image: url('../images/pages-background.png');
     background-position: center;
     background-blend-mode: overlay;
     margin-top: 100px;
